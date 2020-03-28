@@ -1,4 +1,3 @@
-# COTOHA APIの固有表現抽出APIを使用
 import os
 import urllib.request
 import json

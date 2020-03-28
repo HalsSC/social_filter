@@ -1,7 +1,7 @@
-# social_filter
-社会性フィルターをCOTOHA APIを使って適用します
+# にゃーん(social_filter)
+社会性フィルターをCOTOHA APIを使って適用する
 
-## COTOHA_API.py
+## にゃーん(COTOHA_API.py)
 COTOHA APIの操作ライブラリ
 + 具体例:以下のようにすることで固有表現の解析ができる
 ~~~
@@ -17,7 +17,7 @@ result = cotoha_api.ne(sentence)
 print(result['result'])
 ~~~
 
-## social_filter.py
+## にゃーん(social_filter.py)
 社会性フィルターを適用するプログラム
 + 手順
 1. 固有表現を抽出し「その他」と判断されたもの以外すべて"にゃーん"に置きかえる

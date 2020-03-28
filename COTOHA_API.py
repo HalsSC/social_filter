@@ -46,8 +46,8 @@ class CotohaApi:
         # レスポンスボディからアクセストークンを取得
         self.access_token = res_body["access_token"]
 
-
     # 固有表現抽出API
+
     def ne(self, sentence):
         # 固有表現抽出API URL指定
         url = self.developer_api_base_url + "v1/ne"
@@ -59,7 +59,7 @@ class CotohaApi:
         }
         # リクエストボディ指定
         data = {
-            "sentence":sentence
+            "sentence": sentence
         }
         # リクエストボディ指定をJSONにエンコード
         data = json.dumps(data).encode()
@@ -102,7 +102,7 @@ class CotohaApi:
         }
         # リクエストボディ指定
         data = {
-            "sentence":sentence
+            "sentence": sentence
         }
         # リクエストボディ指定をJSONにエンコード
         data = json.dumps(data).encode()
@@ -145,7 +145,7 @@ class CotohaApi:
         }
         # リクエストボディ指定
         data = {
-            "sentence":sentence
+            "sentence": sentence
         }
         # リクエストボディ指定をJSONにエンコード
         data = json.dumps(data).encode()
@@ -188,7 +188,7 @@ class CotohaApi:
         }
         # リクエストボディ指定
         data = {
-            "sentence":sentence
+            "sentence": sentence
         }
         # リクエストボディ指定をJSONにエンコード
         data = json.dumps(data).encode()
@@ -231,7 +231,7 @@ class CotohaApi:
         }
         # リクエストボディ指定
         data = {
-            "sentence":sentence
+            "sentence": sentence
         }
         # リクエストボディ指定をJSONにエンコード
         data = json.dumps(data).encode()
@@ -274,7 +274,7 @@ class CotohaApi:
         }
         # リクエストボディ指定
         data = {
-            "sentence":sentence
+            "sentence": sentence
         }
         # リクエストボディ指定をJSONにエンコード
         data = json.dumps(data).encode()
@@ -317,7 +317,7 @@ class CotohaApi:
         }
         # リクエストボディ指定
         data = {
-            "sentence":sentence
+            "sentence": sentence
         }
         # リクエストボディ指定をJSONにエンコード
         data = json.dumps(data).encode()
@@ -360,7 +360,7 @@ class CotohaApi:
         }
         # リクエストボディ指定
         data = {
-            "sentence":sentence
+            "sentence": sentence
         }
         # リクエストボディ指定をJSONにエンコード
         data = json.dumps(data).encode()
@@ -403,7 +403,7 @@ class CotohaApi:
         }
         # リクエストボディ指定
         data = {
-            "sentence":sentence
+            "sentence": sentence
         }
         # リクエストボディ指定をJSONにエンコード
         data = json.dumps(data).encode()
@@ -446,7 +446,7 @@ class CotohaApi:
         }
         # リクエストボディ指定
         data = {
-            "sentence":sentence
+            "sentence": sentence
         }
         # リクエストボディ指定をJSONにエンコード
         data = json.dumps(data).encode()
